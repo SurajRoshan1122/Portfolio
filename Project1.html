@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('/background1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        #logo{
+            position: relative;
+            top: 15px;
+            left: 10px;
+            width: 100px;
+        }
+        .n{
+            margin: 20px;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            border-radius: 3px
+            ;
+        }
+        .n:hover{
+            background-color: gray;
+        }
+        nav{
+            background-color: black;
+            position: fixed;
+            width: 100%;
+            top: 0%;
+            left: 0%;
+            height: 70px;
+        }
+        #a{
+            color: white;
+            font-size: 40px;
+            width: 800px;
+            height: 200px;
+            text-align: center;
+            margin-top: 100px;
+            padding-top: 50px;
+            border-radius: 5px;
+        }
+        #b{
+            margin-top: 100px;
+        }
+        #pic{
+            width: 270px;
+            height: 360px;
+            margin-right: 80px;
+            margin-top: 27px;
+            border-radius: 10px;
+        }
+        #m{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #n{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #o{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            color: white;
+            font-size: 25px;
+            width: 800px;
+            height: 80px;
+            text-align: center;
+            margin-top: 0px;
+        }
+        .t{
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .t:hover{
+            background-color: gray;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="/SurajRoshan.jpg" alt="" id="logo">
+        <a class="n" href="/Project1a.html">About</a>
+        <a class="n" href="/Project1b.html">Contact</a>
+        <a class="n" href="/Project1c.html">My Projects</a>
+    </nav><br>
+    <div id="m">
+        <div id="b">
+            <img src="/Suraj.jpg" alt="" id="pic">
+        </div>
+        <div>
+            <div id="n">
+                <p id="a">
+                    <strong>Hey there! I'm Suraj. If you need a code in java or in C, I'm the one you are looking for. Whether you a need a friend or just someone to play video games, I'll always be there.</strong>
+                </p>
+            </div>
+            <div id="o">
+                <div>
+                    <p class="t">Student</p>
+                </div>
+                <div><p>|</p></div>
+                <div>
+                    <p class="t">C</p>
+                </div>
+                <div><p>|</p></div>
+                <div>
+                    <p class="t">Java</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
